@@ -1,13 +1,7 @@
 
 
-while (i <= mid && j <= high) {  //step 4.d
-    if (arr[i] <= arr[j]){   //step 4.d.i
-        B[k] = arr[i];
-        i++;
-    }else {   //step 4.d.ii
-        B[k] = arr[j];
-        j++;
-    }
-    k++;
+while (j <= high) {  //step 4.e
+    B[k] = arr[j];  //step 4.e.i
+    j++;           //step 4.e.ii
+    k++;          //step 4.e.iii
 }
-
